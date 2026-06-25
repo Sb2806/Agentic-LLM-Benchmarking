@@ -1,0 +1,7 @@
+architecture,correct,knowledge_gap,multi_step_failure,incomplete_reasoning,tool_error,wrong_format
+ReAct,54,45,1,0,0,0
+Reflexion,54,43,2,0,0,1
+Plan-Execute,57,41,2,0,0,0
+ReWOO,59,38,2,0,0,1
+Hybrid,64,35,1,0,0,0
+SMART,68,30,2,0,0,0

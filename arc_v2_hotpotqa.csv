@@ -1,0 +1,154 @@
+architecture,task_id,level,question,ground_truth,predicted,score,correct,confidence,votes,a1,a2,a3,steps,tool_calls,tokens,time_sec
+arc_v2,0,easy,In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?,1755,1755,1.0,True,MEDIUM,2/3,1755,No specific founding year.,1755,4,4,1308,49.12
+arc_v2,1,easy,Black Book starred the actress and writer of what heritage?,Dutch,Scottish heritage.,0.0,False,LOW,1/3,Scottish heritage.,Dutch,"Jewish heritage, specifically Israeli or Eastern European.",3,4,1269,56.78
+arc_v2,2,easy,Which actor does American Beauty and American Beauty have in common?,Kevin Spacey,Sam Mendes,0.0,False,LOW,1/3,Sam Mendes,Kevin Spacey.,"Here is the extracted list of person names:
+
+1. Richard Wallace
+2",3,5,1175,61.22
+arc_v2,3,medium,Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?,40 members,The Florida Senate has 40 members.,1.0,True,HIGH,3/3,The Florida Senate has 40 members.,40 members.,40,3,4,1004,53.65
+arc_v2,4,easy,"Between Greyia and Calibanus, which genus contains more species?",Greyia,Greyia has more species.,1.0,True,MEDIUM,2/3,Greyia has more species.,Greyia contains more species.,No information is provided about Greyia and Calibanus.,3,4,1331,58.26
+arc_v2,5,easy,Did John Updike and Tom Clancy both publish more than 15 bestselling novels?,yes,No,0.0,False,MEDIUM,2/3,No,No.,Yes.,3,4,1000,56.56
+arc_v2,6,medium,Who was hung for assisting the attempted surrender of a defector from the American Continental Army ,John André,John André,1.0,True,LOW,1/3,John André,No specific answer found.,Benedict Arnold's traitor helper.,5,4,948,61.75
+arc_v2,7,easy,which Mexican and American film actress is Ethel Houbiers  French voice of ,Salma Hayek Pinault,Salma Hayek Pinault,1.0,True,MEDIUM,2/3,Salma Hayek Pinault,Pharah,Salma Hayek Pinault's French voice.,3,4,1039,54.64
+arc_v2,8,medium,Which major international airport in south-east England ranks as the 8th busiest airport in Europe a,Gatwick Airport,Gatwick Airport,1.0,True,MEDIUM,2/3,Gatwick Airport,Heathrow Airport.,Gatwick Airport ranks as eighth busiest.,3,5,1190,58.8
+arc_v2,9,medium,Isabella Kelly was born at a ruined castle characterized as one of the most isolated fortifications ,The Changing Scottish Landscape,"""The Changing Scottish Landscape""",1.0,True,LOW,1/3,"""The Changing Scottish Landscape""",No specific answer found.,No specific information about Isabella Kelly's birthplace is provided in the given,4,4,1084,57.38
+arc_v2,10,easy,The facility where Robert Croft worked as a navy instructor was also known as?,"""Home of the Submarine Force""",US Naval Submarine Base New London,0.0,False,MEDIUM,2/3,US Naval Submarine Base New London,US Naval Submarine Base New London submarine school,"Naval Consolidated Brig, Miramar facility.",3,3,1045,55.82
+arc_v2,11,easy,"Who released the song ""With or Without You"" first, Jai McDowall or U2?",U2,U2 released it first.,1.0,True,LOW,1/3,U2 released it first.,Jai McDowall.,"U2 released ""With or Without You"".",3,4,1373,58.43
+arc_v2,12,easy,"Which ""Roseanne"" star is in Scream 2?",Laurie Metcalf,Laurie Metcalf,1.0,True,MEDIUM,2/3,Laurie Metcalf,"There is no evidence that any ""Roseanne"" star is in Scream 2.",Laurie Metcalf in Scream 2.,3,4,1277,59.72
+arc_v2,13,medium,In what city is the company that Fastjet Tanzania was originally founded as a part of prior to rebra,"Nairobi, Kenya","Nairobi, Kenya.",1.0,True,LOW,1/3,"Nairobi, Kenya.",So,"Here are the extracted place names:
+
+1. Nairobi
+2. Gambia",3,4,1107,60.43
+arc_v2,14,medium,"What is the name of the Australian specialist electronic music magazine that features avant-rock, ex",Cyclic Defrost,Cyclic Defrost,1.0,True,MEDIUM,2/3,Cyclic Defrost,Cyclic Defrost,Australian Musician Magazine (no specific name),3,4,890,51.58
+arc_v2,15,easy,What is the population of the city that Munsonville is in the northwest corner of?,729 at the 2010 census,Fayette County,0.0,False,LOW,1/3,Fayette County,There is no population data provided in the evidence.,"Munsonville is in Portland, Oregon.",3,4,952,57.44
+arc_v2,16,easy,A Pair of Brown Eyes and Wild Mountain Thyme is based from what artists song?,Francis McPeake,Francis McPeake,1.0,True,MEDIUM,2/3,Francis McPeake,"Francis McPeake's song ""Wild Mountain Thyme"".",Shane MacGowan's song inspiration.,3,4,1110,57.44
+arc_v2,17,medium,Armageddon in Retrospect was written by the author who was best known for what 1969 satire novel?,Slaughterhouse-Five,"Kurt Vonnegut
+Gaius Petronius",0.0,False,LOW,1/3,"Kurt Vonnegut
+Gaius Petronius",Slaughterhouse-Five.,"Here are the extracted names:
+
+1. Kurt Vonnegut
+2",3,4,1121,57.33
+arc_v2,18,easy,What class of instrument does Apatim Majumdar play?,strings,Indian classical stringed instrument.,1.0,True,LOW,1/3,Indian classical stringed instrument.,Sarod player.,Indian classical musician plays Sarod.,3,4,1039,56.45
+arc_v2,19,medium," Which movie did Disney produce first,  The Many Adventures of Winnie the Pooh or Ride a Wild Pony?",Ride a Wild Pony,The Many Adventures of Winnie the Pooh.,0.0,False,HIGH,3/3,The Many Adventures of Winnie the Pooh.,The Many Adventures of Winnie the Pooh.,The Many Adventures of Winnie the Pooh.,3,4,1151,9.6
+arc_v2,20,easy,Pandikona and Berger Blanc Suisse are both what kinds of animals?,dogs,Dog breeds,1.0,True,LOW,1/3,Dog breeds,Both are breeds of dogs.,Pandikona and Berger Blanc Suisse are dogs.,3,4,1029,45.64
+arc_v2,21,easy,The Prussian General Carl von Clausewitz is associated with what type of realism?,Modern thinkers associated with classical realism are Carl von Clausewitz,Classical Realism,1.0,True,MEDIUM,2/3,Classical Realism,Machiavellian or Realist political thought,Classical Realism theory associated with Clausewitz.,4,4,927,58.64
+arc_v2,22,easy,What where both Hawker Hurricane and No. 1455 Flight apart of?,Royal Air Force,RAF,0.0,False,MEDIUM,2/3,RAF,The Royal Air Force (RAF),Hawker Hurricane and No. 1455 Flight.,3,3,929,56.06
+arc_v2,23,easy,what language did the ethnic group which Torstein Ellingsen was its drumer  speaks ,Norwegian language,Norwegian language.,1.0,True,MEDIUM,2/3,Norwegian language.,Norwegian.,Sudanese Arabic.,3,4,1151,57.43
+arc_v2,24,medium,"From March 631 to April 631, Farrukhzad Khosrau V was the king of an empire that succeeded which emp",the Parthian Empire,The Sasanian Empire.,0.0,False,HIGH,3/3,Sasanian Empire succeeded by Sasanian Empire itself.,The Sasanian Empire.,The Sasanian Empire succeeded by Farrukhzad Khosrau,3,4,1411,57.21
+arc_v2,25,medium,"Beer Wars covers the differences between large corporate breweries, and small breweries, such as wha",Stone Brewing,Stone Brewing Co.,1.0,True,MEDIUM,2/3,Stone Brewing Co.,Stone Brewing Co.,Stone Brewing in Escondido.,3,4,1372,58.56
+arc_v2,26,medium,"Which head coach has led their team for a longer period of time, Tim Cluess or Steve Prohm?",Tim Cluess,7 years.,0.0,False,LOW,1/3,7 years.,No clear winner found.,Tim Cluess has coached longer.,4,4,1168,11.93
+arc_v2,27,medium,During what war were the Russia-United Kingdom relations in a state of rivalry after the abdication ,the Cold War (1947–91),Crimean War of 1850s,0.0,False,LOW,1/3,Crimean War of 1850s,The Russian Revolution of 1917.,World War I.,3,4,1250,40.62
+arc_v2,28,easy,How far from Sacramento is the flight school in Atwater?,about 115 miles (185 km),115 miles south of Sacramento.,0.0,False,MEDIUM,2/3,115 miles south of Sacramento.,No exact distance given.,115 miles,4,4,983,58.39
+arc_v2,29,medium,Baraki Barak District is situated in the western part of a province whose capital is what?,Puli Alam,Pul-i-Alam,1.0,True,LOW,1/3,Pul-i-Alam,Logar Province.,"Logar province's capital is not mentioned in the provided text. However,",3,5,1267,59.07
+arc_v2,30,easy,What was the 2010 population of the town where Black Crescent Mountain was located? ,310,310,1.0,True,LOW,1/3,310,No population data available.,No population data was provided for Black Crescent Mountain's town.,4,4,1005,59.33
+arc_v2,31,medium,"In the NASA mission where Moon trees were taken into space, what was the nickname of the Command Mod","""Kitty Hawk""",Kitty Hawk,1.0,True,LOW,1/3,Kitty Hawk,There is not enough evidence to provide an answer.,Command Module nickname not mentioned.,3,4,1000,54.44
+arc_v2,32,easy,Which comic series involves characters such as Nick Fury and Baron von Strucker?,Marvel,Andreas von Strucker,0.0,False,LOW,1/3,Andreas von Strucker,The Mangaverse series.,Nick Fury vs Baron von Strucker.,3,4,1012,57.61
+arc_v2,33,medium,College Humor is a 1933 American pre-Code musical comedy film that starred what American singer and ,"Harry Lillis ""Bing"" Crosby Jr.",Bing Crosby,1.0,True,MEDIUM,2/3,Bing Crosby,There is no evidence to answer the question.,"Harry Lillis ""Bing"" Crosby",3,4,988,58.13
+arc_v2,34,medium,Who is writing a book about the Koch family who control the second-largest privately owned company i,Jane Mayer,Charles Koch,0.0,False,LOW,1/3,Charles Koch,Daniel Schulman.,No specific author mentioned.,4,4,1265,58.84
+arc_v2,35,medium,New York State Route 9R rejoins its parent in a hamlet located  in what New York County?,Albany,Albany County.,1.0,True,HIGH,3/3,Albany County.,Albany County,Albany County.,3,4,1429,55.8
+arc_v2,36,easy,12 Years a Slave starred what British actor born 10 July 1977),Chiwetel Ejiofor,Chiwetel Ejiofor,1.0,True,MEDIUM,2/3,Chiwetel Ejiofor,There is no evidence to answer the question.,"Chiwetel Ejiofor, a British actor.",3,5,1379,58.73
+arc_v2,37,easy,What was the capital of India when the Taj Mahal was commissioned?,Agra,Agra.,1.0,True,HIGH,3/3,Agra.,Agra was the capital.,Agra was the capital then.,4,5,1701,63.29
+arc_v2,38,medium,"In what city did the ""Prince of tenors"" star in a film based on an opera by Giacomo Puccini?",Rome,Rome,1.0,True,MEDIUM,2/3,Rome,Rome.,"Here are the extracted place names:
+
+1. Sandpoint
+2. Idaho",3,4,1421,52.03
+arc_v2,39,medium,What river can a  large African bovine be seen bathing in in the Mwabvi Wildlife Reserve?,Buffalo,Mwabvi River,0.0,False,MEDIUM,2/3,Mwabvi River,No specific river mentioned.,Mwabvi River in Malawi.,4,4,1150,59.06
+arc_v2,40,medium,Jalen Jones plays basketball for an NBA team that plays their home games in what arena?,Smoothie King Center,No specific arena mentioned.,0.0,False,MEDIUM,2/3,Smoothie King Center arena.,No specific arena mentioned.,No specific arena is mentioned for Jalen Jones.,4,4,979,7.75
+arc_v2,41,easy,The On Tour Forever album gave Blues Traveler the opportunity to display what musical trademark?,extensive use of segues,Harmonica playing.,0.0,False,LOW,1/3,Harmonica playing.,There is insufficient evidence to determine the musical trademark of Blues Traveler.,Extensive use of segues in live performances.,3,4,1134,45.62
+arc_v2,42,easy,Which Victorian poet was born in a 15th-century castle home to the Earl of Southesk?,Charlotte Carnegie,Robert Louis Stevenson.,0.0,False,LOW,1/3,Robert Louis Stevenson.,There is no evidence to answer this question.,Lady Charlotte Elliot.,3,4,1400,55.98
+arc_v2,43,hard,Alexander Petrovich Nikolayev received the title Hero of the Soviet Union and the Order of Lenin for,World War II,World War II,1.0,True,HIGH,3/3,World War II,World War II.,World War II.,3,4,1418,58.12
+arc_v2,44,easy,Where did Cale Gundy's brother play football in college?,Oklahoma State University,Cale Gundy's brother played at Oklahoma State.,1.0,True,LOW,1/3,No information about Cale Gundy's brother.,There is no evidence that Cale Gundy's brother played football in college.,Cale Gundy's brother played at Oklahoma State.,3,4,1154,61.19
+arc_v2,45,easy,"Who has released more solo albums, Nick Carter or Brady Seals?",Brady Seals,Nick Carter,0.0,False,HIGH,3/3,Nick Carter,Nick Carter has released more solo albums.,Nick Carter released more solo albums.,3,4,1084,6.8
+arc_v2,46,medium,"Which Istanbul mosque is unique for retaining a Baroque style of architecture, the Bayezid II Mosque",Nusretiye Mosque,Nusretiye Mosque,1.0,True,MEDIUM,2/3,Nusretiye Mosque,Bayezid II Mosque retains Baroque.,Nusretiye Mosque retains Baroque style architecture.,4,4,1349,49.88
+arc_v2,47,medium,What university did the last Detroit Pistons player to wear the number retired in honor of a player ,Georgetown University,Georgetown University,1.0,True,LOW,1/3,Georgetown University,Southeastern Oklahoma State University.,University of Missouri.,4,5,1250,57.86
+arc_v2,48,easy,The Atik Valide Mosque and Valens Aqueduct are found in what country?,Turkey,Turkey.,1.0,True,HIGH,3/3,Turkey.,Turkey.,"Turkey 
+
+The other names mentioned are:
+- Istanbul 
+- Üskü",3,4,1145,51.75
+arc_v2,49,hard,Which of the four US Presidents who have been assinated was shot on the grounds of the Pan-American ,William McKinley,William McKinley,1.0,True,HIGH,3/3,William McKinley,William McKinley.,President William McKinley was shot.,3,4,948,57.02
+arc_v2,50,easy,Who created the NBC sitcom that Johnny Pemberton appears in as the character Bo Thompson?,Justin Spitzer,"Reed Agnew 
+Eli Jorné",0.0,False,LOW,1/3,"Reed Agnew 
+Eli Jorné",No creator found.,"Johnny Pemberton 
+Julia Benjamin
+Justin Spitzer",4,4,995,8.13
+arc_v2,51,easy,Were Halldór Laxness and Timothy Leary from the same country?,no,No.,1.0,True,MEDIUM,2/3,United States.,No.,"No, they were not from same country.",3,4,1420,48.19
+arc_v2,52,medium,Do both Korematsu v. United States and Chaplinsky v. New Hampshire cases regard the rights of U. S. ,yes,Yes,1.0,True,HIGH,3/3,Yes,Yes.,Yes.,3,4,1026,57.11
+arc_v2,53,medium, What is the title of the memoir written by the honoree of the Black and White Ball?,Personal History,Personal History,1.0,True,MEDIUM,2/3,Personal History,There is no evidence that Sandy Koufax wrote a memoir.,"""Personal History""",3,4,1196,58.92
+arc_v2,54,medium,What country is the theme park served by the Huis Ten Bosch train service themed on?,Netherlands,"Here are the extracted place names:
+
+1. Netherlands
+2. Japan",1.0,True,HIGH,3/3,Japan,The Netherlands.,"Here are the extracted place names:
+
+1. Netherlands
+2. Japan",3,3,1147,56.95
+arc_v2,55,easy,The Distribution of Industry act was passed by a man who was prime minister when? ,1945 to 1951,Clement Attlee.,0.0,False,LOW,1/3,Clement Attlee.,1945.,David Lloyd George,3,4,894,57.55
+arc_v2,56,easy,"What Cantonese slang term can mean both ""ghost man"" and to refer to Westerners?",Gweilo,Gweilo,1.0,True,HIGH,3/3,Gweilo,"""Gweilo""","Gweilo can mean both ""ghost man"".",3,4,1008,58.11
+arc_v2,57,easy,In what year was the most famous statute at Po Lin Monastery built?,Tian Tan Buddha,Tian Tan Buddha was built in 1993.,1.0,True,MEDIUM,2/3,Tian Tan Buddha was built in 1993.,1906,1993,3,4,1018,55.36
+arc_v2,58,medium," The Nike Hoop Summit has had many current NBA players as former participants, including what German",Dirk Werner Nowitzki,Dirk Nowitzki.,1.0,True,MEDIUM,2/3,Dirk Nowitzki.,No German player found.,Dirk Nowitzki from Germany played.,4,4,1029,59.15
+arc_v2,59,medium,Which actor from the South Korean-Thai drama film Final Recipe debuted as a member of Super Junior-M,Henry Lau,Henry,1.0,True,MEDIUM,2/3,Henry,There is no evidence to answer the question.,Henry Lau,3,4,1022,56.89
+arc_v2,60,easy,Are Phlebodium and Pieris both species of ferns?,no,Yes.,0.0,False,MEDIUM,2/3,No,Yes.,Yes,3,4,1207,57.69
+arc_v2,61,easy,Who was the great grandfather of Franklin Seaver Pratt's wife?,Kalokuokamaile,Unknown due to lack.,0.0,False,LOW,1/3,No information about Franklin Seaver Pratt's wife.,Unknown due to lack.,"Here is the extracted list of person names:
+
+1. Maestro Armando",4,5,1348,58.77
+arc_v2,62,easy,At what age did Cieli di Toscana's singer become blind?,Bocelli became completely blind at the age of 12,At age 12 Andrea Bocelli.,1.0,True,LOW,1/3,At age 12 Andrea Bocelli.,There is no evidence that Cieli di Toscana's singer became blind.,At age 12 he became blind.,3,4,1189,53.56
+arc_v2,63,medium,Which late 1980s and 1990s English super model was featured in the song nasty girl by The Notorious ,Naomi Elaine Campbell,Naomi Campbell.,1.0,True,MEDIUM,2/3,Naomi Campbell.,There is no evidence to answer the question.,Naomi Campbell was featured in song.,3,4,1268,57.54
+arc_v2,64,medium,What is the name of the film directed by Alex Cox  adapted from a 1606 play starring Diana Quick as ,Revengers Tragedy,Revenger's Tragedy,1.0,True,MEDIUM,2/3,Diana Quick,Revenger's Tragedy,The Revenger's Tragedy (1606 play),3,4,1009,57.64
+arc_v2,65,easy,Josh Trank and Mike Valerio both work in what industry?,entertainment,Film industry.,1.0,True,HIGH,3/3,Film industry.,Film industry.,Film industry.,3,4,945,55.96
+arc_v2,66,easy,"Which American comedian born on March 21, 1962, appeared in the movie ""Sleepless in Seattle?""",Rosie O'Donnell,Rosie O'Donnell,1.0,True,HIGH,3/3,Rosie O'Donnell,Rosie O'Donnell.,Roseann O'Donnell,3,3,1039,58.15
+arc_v2,67,easy,Any Questions for Ben? was directed by which Australian producer and actor?,"Robert Ian ""Rob"" Sitch",Rob Sitch,1.0,True,MEDIUM,2/3,Rob Sitch,Rob Sitch.,Trish Lake directed Any Questions for Ben?,3,4,1160,6.97
+arc_v2,68,medium,What American indie rock group first had Jesse Sandoval as the drummer and now has Jon Sortland on d,The Shins,The Shins.,1.0,True,HIGH,3/3,The Shins.,The Shins.,The Shins is the group.,3,4,1116,49.22
+arc_v2,69,medium,What 3 countries are part of the legal name of the airline that merged with Braathens in 2004?,Denmark–Norway–Sweden,"Norway, Sweden, Denmark.",1.0,True,MEDIUM,2/3,"Norway, Sweden, Denmark.",No specific answer found.,"Norway, Sweden, Denmark.",4,3,1027,58.04
+arc_v2,70,medium,What is the ratio of flow velocity past a boundary to the local speed of sound for a Saab JAS 39 Gri,2,"Mach 2 (2,100 km/h).",1.0,True,LOW,1/3,Not provided in text.,"Mach 2 (2,100 km/h).",Not provided in text.,3,5,1278,10.71
+arc_v2,71,easy,"SWX Right Now airs on the station that broadcasts on what channel in Billings, Montana?",8,Channel 11 in Billings.,0.0,False,LOW,1/3,Channel 11 in Billings.,Unable to verify.,"Here are the numbers extracted:
+
+* 92.5
+* 98",4,4,1011,41.32
+arc_v2,72,hard,"Which player, who also played for the New Jersey Nets and the Golden State Warriors, finished third ",Mookie Blaylock,Mookie Blaylock,1.0,True,MEDIUM,2/3,Mookie Blaylock,Dennis Scott.,Mookie Blaylock finished third in three-pointers.,3,4,1041,55.59
+arc_v2,73,medium,Saltillo Engine is an engine plant in Ramos Arizpe that belongs to the American subsidiary of what c,Fiat Chrysler Automobiles N.V.,Chrysler,1.0,True,MEDIUM,2/3,Chrysler,"American Axle & Manufacturing Holdings, Inc.",Fiat Chrysler Automobiles N.V.,3,5,1153,8.57
+arc_v2,74,easy," What type of television show did Dylan Everett star in, in 2015?",American-Canadian mystery-drama,Teen comedy-drama,0.0,False,LOW,1/3,Teen comedy-drama,"Comedy television shows, specifically ""Wingin' It"" (2010-2013).",Dylan Everett starred in Wingin' It.,3,4,983,48.04
+arc_v2,75,medium,"Which plant, the Chaerophyllum or the Cryptanthus, can be found in various places across the world?",Chaerophyllum,Chaerophyllum can be found worldwide.,1.0,True,MEDIUM,2/3,Chaerophyllum can be found worldwide.,Cryptanthus.,Chaerophyllum can be found worldwide.,3,4,941,56.22
+arc_v2,76,medium,"Johnny Mathis: Wonderful Wonderful aired at what luxury hotel, casino and spa resort located in Atla",Tropicana Casino & Resort,The Tropicana Hotel.,0.0,False,MEDIUM,2/3,Tropicana Casino & Resort.,The Tropicana Hotel.,Tropicana Hotel in Atlantic City.,3,4,1087,61.59
+arc_v2,77,easy,Who wrote the lyrics for Linda Eder's Broadway debut?,"Wildhorn, Bricusse and Cuden",Bill Grainer wrote the lyrics.,0.0,False,LOW,1/3,Bill Grainer wrote the lyrics.,Frank Wildhorn wrote lyrics.,"Here are the extracted person names:
+
+1. Linda Eder
+2.",4,4,1159,56.46
+arc_v2,78,hard,"The Company They Keep is a book written by Diana Pavlac Glyer, who is a professor at a university in",evangelical Christian,Diana Pavlac Glyer,0.0,False,MEDIUM,2/3,Diana Pavlac Glyer,There is no evidence to provide an answer.,"Here are the extracted names:
+
+1. Diana Pavlac Glyer
+2",3,5,830,55.2
+arc_v2,79,medium,For One Night Only was hosted by the man most well-known for hosting what show from 1962 until 1999?,The Late Late Show,The Late Late Show,1.0,True,MEDIUM,2/3,The Late Late Show,Oprah Winfrey's talk show.,The Late Late Show.,4,4,829,58.52
+arc_v2,80,hard,What was the slogan  that came about from the idea of Lebensraum which had its most extreme form sup,Blood and soil,Drang nach Osten,0.0,False,HIGH,3/3,Drang nach Osten,"""Drang nach Osten"" slogan.","""Drang nach Osten"" (Drive East)",4,3,1166,58.05
+arc_v2,81,easy,Olivia DeJonge starred in an American horror film directed by Shyamalan called what,The Visit,The Visit,1.0,True,HIGH,3/3,The Visit,The Visit.,The Visit (2015 American horror film).,3,4,1090,7.13
+arc_v2,82,medium,Who conducted the negotiations  with the owners and the longest serving commandant of Auschwitz conc,Rudolf Höss,Kurt Gerstein,0.0,False,MEDIUM,2/3,Kurt Gerstein,There is no evidence to provide an answer to the question.,Kurt Gerstein conducted negotiations with owners.,3,5,1394,49.92
+arc_v2,83,medium,What genre is the novel from which the fast-food restaurant specializing in seafood derives its name,an adventure novel,Adventure,1.0,True,MEDIUM,2/3,Adventure,"I'm sorry, but I am unable to verify the genre of the novel from which the fast-food restaurant deri","The Adventure Novel ""Treasure Island""",4,4,807,54.91
+arc_v2,84,easy,What kind of musicians are Mark Gaudet and Jan Axel Blomberg?,drummer,Black metal musicians.,0.0,False,LOW,1/3,Black metal musicians.,There is no evidence to determine what kind of musicians Mark Gaudet and Jan Axel Blomberg are.,Mark Gaudet and Jan Axel Blomberg are musicians.,4,4,1073,58.43
+arc_v2,85,easy,A Wind in the Door is part of a series written by who?,Madeleine L'Engle,Madeleine L'Engle wrote it.,1.0,True,HIGH,3/3,Madeleine L'Engle wrote it.,Madeleine L'Engle.,Madeleine L'Engle wrote A Wind in the Door.,3,4,1099,6.26
+arc_v2,86,easy,The Airport located next to the A13 handled how many passengers in 2016 ?,1.6 million passengers,No data available.,0.0,False,LOW,1/3,No information provided about A13 airport.,No data available.,"847,257",4,5,1563,47.29
+arc_v2,87,medium,"The town of Sinclair, West Virginia, is named after the founder of the local oil drilling company. W",dinosaur,Derrick on Sinclair Oil's logo.,0.0,False,LOW,1/3,Derrick on Sinclair Oil's logo.,There is no information about the logo on the provided evidence.,A large green dinosaur silhouette.,3,3,1057,8.77
+arc_v2,88,medium,Jihad: A Story of the Others is a documentary by the director who is of what descent?,Punjabi/Pashtun,Deeyah Khan,0.0,False,LOW,1/3,Deeyah Khan,Indian,"Damien Dematra
+Maya Gallus
+Yair Qedar",3,3,965,45.13
+arc_v2,89,hard,Minor league baseball games that were played between the rivalling teams of the Sooners and the Cowb,Drillers Stadium,Ruppert Stadium,0.0,False,MEDIUM,2/3,Ruppert Stadium,There is no evidence provided about minor league baseball games or stadiums.,Ruppert Stadium formerly known as.,3,4,1004,56.4
+arc_v2,90,medium,Cooperative Living Organization is located in a city that is the county seat of what county in Flori,Alachua,Alachua County.,1.0,True,MEDIUM,2/3,Hillsborough County,Alachua County.,"Alachua County, Florida",3,4,1069,9.42
+arc_v2,91,easy,"What is the pen name of author Carolyn Janice Cherry, who wrote the Fortress Series?","Carolyn Janice Cherry (born September 1, 1942), better known by the pen name C. J. Cherryh,",C. J. Cherryh,1.0,True,MEDIUM,2/3,C. J. Cherryh,C.J. Cherryh.,"Here is the extracted information:
+
+1. Carolyn Janice Cherry
+2.",3,3,1230,47.19
+arc_v2,92,easy,"Which dog is believed to dispel ghosts and evil spirits, Segugio Italiano or Sapsali?",Sapsali,Sapsali,1.0,True,HIGH,3/3,Sapsali,Sapsali.,Sapsali is believed to dispel ghosts.,3,5,1326,58.06
+arc_v2,93,hard,Which French aristocrat and military officer who fought in the American Revolutionary War visited th,Marquis de Lafayette,Marquis de Lafayette,1.0,True,MEDIUM,2/3,Marquis de Lafayette,No specific answer found.,Marquis de Lafayette visited The Cellar.,4,4,1184,59.9
+arc_v2,94,medium,What sports team included both of the brothers Case McCoy and Colt McCoy during different years?,University of Texas Longhorns,Texas Longhorns football team.,0.0,False,HIGH,3/3,Texas Longhorns football team.,The University of Texas football team.,University of Texas Longhorns football team.,3,4,994,53.91
+arc_v2,95,medium,Which member of The New Russian School was both a doctor and a chemist besides being a composer?,Alexander Porfiryevich Borodin,Alexander Borodin,1.0,True,MEDIUM,2/3,Alexander Borodin,No specific answer found.,Alexander Borodin was a doctor chemist composer.,4,5,1551,60.08
+arc_v2,96,easy,"Susanna Thompson appeared in the courtroom drama film Ghosts of Mississippi, directed by who?",Rob Reiner,Rob Reiner,1.0,True,MEDIUM,2/3,Rob Reiner,Rob Reiner.,Roger Donaldson directed Ghosts of Mississippi.,3,3,1127,56.5
+arc_v2,97,medium,Live Wire Radio will possibly be considered as a replacement for a variety show created in what year,1974,2004,0.0,False,HIGH,3/3,2004,2004,"1974
+2004 
+2008
+2009
+2010",3,4,1062,56.73
+arc_v2,98,medium,Luke Rockhold defeated the MMA fighter who was the first to earn a win against which champion in the,Anderson Silva,Chris Weidman was defeated.,0.0,False,LOW,1/3,Chris Weidman was defeated.,There is no evidence to support the question.,"Here is the extracted answer:
+
+1. Luke Rockhold
+2. K",3,4,1133,8.36
+arc_v2,99,easy,What type of art does The Consul and Arlecchino have in common?,music,Both are related to consul.,0.0,False,LOW,1/3,Both are related to consul.,Italian art.,"None of the options match. 
+
+However, I can provide a possible connection",3,4,1290,45.49
